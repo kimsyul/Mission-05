@@ -74,12 +74,6 @@
     padding: 10px 5px;
 }
 
-.depth1 > li:first-of-type,
-.depth2 > li:first-of-type {
-    color: var(--color-blue-600);
-    font-weight: 700;
-}
-
 .navigation__list li {
     width: 170px;
     height: 30px;
@@ -97,7 +91,13 @@
 }
 
 .navigation__list.is--active {
-    display: block;
+    display: list-item;
+}
+
+.navigation__inner li:hover,
+.navigation__inner a:focus {
+    font-weight: 700;
+    color: var(--color-blue-600);
 }
 
 /* ---------------------------------------------- */
