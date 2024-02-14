@@ -142,11 +142,12 @@
     background-color: var(--color-gray-200);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .guide {
     width: auto;
-    height: 100%;
+    height: 35px;
 
     display: flex;
     align-items: center;
@@ -165,13 +166,89 @@
     padding: 6px 14px;
 }
 
-/* .divider {
-    width: 1px;
-} */
-
 #mid {
     height: 207px;
     background-color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coupang-info {
+    width: 1200px;
+    height: 143px;
+
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+    color: var(--color-gray-800);
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 400;
+}
+
+.logo {
+    width: 176px;
+    height: 40px;
+    background-image: url(../../assets/logo/logo-mono.svg);
+}
+
+.company-info {
+    width: auto;
+    height: 143px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.call {
+    width: auto;
+    height: 143px;
+}
+
+.call-top {
+    height: 19px;
+    width: 293px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 8px;
+}
+
+.division-line {
+    border-right: 1px solid var(--color-gray-800);
+    height: 12px;
+    margin-top: 5px;
+}
+
+.tel {
+    height: 58px;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 700;
+
+    margin-bottom: 12px;
+}
+
+.call-03 {
+    margin-bottom: 8px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.bank {
+    width: 282px;
+    height: 84px;
+}
+
+.bank p {
+    margin: 0;
+    margin-top: 8px;
 }
 
 #bottom {
