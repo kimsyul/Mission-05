@@ -71,7 +71,7 @@
     font-weight: 400;
     color: var(--color-back);
 
-    padding: 10px 5px;
+    padding: 10px 25px;
 }
 
 .navigation__list li {
@@ -113,12 +113,16 @@
     color: var(--color-blue-600);
     background-image: url(../../assets/icon/more-right-active.svg);
     background-repeat: no-repeat;
-    background-position: 90% center;
+    background-position: 80% center;
 }
 
 .depth3 a:hover,
 .depth3 a:focus {
     background-image: none;
+}
+
+.navigation__list i {
+    margin-right: 4px;
 }
 
 /* ---------------------------------------------- */
