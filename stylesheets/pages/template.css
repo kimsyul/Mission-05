@@ -37,6 +37,69 @@
 
 /* ---------------------------------------------- */
 /* 내비게이션                                        */
+.ally-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 0 0, 0 0);
+}
+
+.navigation__inner {
+    width: 1020px;
+    height: 520px;
+
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.navigation__list {
+    width: 180px;
+    height: 500px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 25%);
+
+    position: absolute;
+    top: 0;
+
+    list-style: none;
+
+    font-size: 12px;
+    line-height: 120%;
+    font-weight: 400;
+    color: var(--color-back);
+
+    padding: 10px 5px;
+}
+
+.depth1 > li:first-of-type,
+.depth2 > li:first-of-type {
+    color: var(--color-blue-600);
+    font-weight: 700;
+}
+
+.navigation__list li {
+    width: 170px;
+    height: 30px;
+}
+
+.depth1 {
+    margin-top: 7px;
+    top: 0;
+}
+
+.depth2,
+.depth3 {
+    left: 180px;
+    display: none;
+}
+
+.navigation__list.is--active {
+    display: block;
+}
+
 /* ---------------------------------------------- */
 
 /* ---------------------------------------------- */
