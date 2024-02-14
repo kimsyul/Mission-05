@@ -137,4 +137,46 @@
 
 /* ---------------------------------------------- */
 /* 푸터                                            */
+#top {
+    height: 40px;
+    background-color: var(--color-gray-200);
+    display: flex;
+    justify-content: center;
+}
+
+.guide {
+    width: auto;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    color: var(--color-gray-800);
+    font-size: 12px;
+    line-height: 120%;
+    font-weight: 400;
+}
+
+.info {
+    font-weight: 700;
+}
+
+.guide-text {
+    padding: 6px 14px;
+}
+
+/* .divider {
+    width: 1px;
+} */
+
+#mid {
+    height: 207px;
+    background-color: var(--color-white);
+}
+
+#bottom {
+    height: 102px;
+    background-color: var(--color-gray-900);
+}
+
 /* ---------------------------------------------- */
